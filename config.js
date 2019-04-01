@@ -14,10 +14,10 @@ module.exports = {
   },
   guild: {
     // The name of your guild (or guilds, if the guild is large).
-    guilds: process.env.ALBION_GUILDS
-    ? process.env.Gaudia Certaminis.split(',') : [],
+    guilds: process.env."Gaudia Certaminis"
+    ? process.env."Gaudia Certaminis".split(',') : [],
     // The alliance your guild belongs to
-    alliance: process.env.BAM
+    alliance: process.env."BAM"
   },
   battle: {
     // Min players to report as battle

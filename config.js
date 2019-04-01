@@ -6,18 +6,18 @@
 module.exports = {
   discord: {
     // The Discord token of the Bot to post through.
-    token: process.env.DISCORD_TOKEN,
+    token: process.env.NTYyMjEyNzgzOTE2MzE4NzM5.XKJKCg.6b51gJCZI1T4qzCf5z78BntEIig,
     // The ID of the discord channel to post battleboard infos to.
-    feedChannelId: process.env.ALBION_FEED_CHANNEL_ID,
+    feedChannelId: process.env.562214608643817483,
     // The ID of the discord channel to post albion status infos to.
-    statusChannelId: process.env.ALBION_STATUS_CHANNEL_ID
+    statusChannelId: process.env.461409185440202754
   },
   guild: {
     // The name of your guild (or guilds, if the guild is large).
     guilds: process.env.ALBION_GUILDS
-    ? process.env.ALBION_GUILDS.split(',') : [],
+    ? process.env.Gaudia Certaminis.split(',') : [],
     // The alliance your guild belongs to
-    alliance: process.env.ALBION_ALLIANCE
+    alliance: process.env.BAM
   },
   battle: {
     // Min players to report as battle
@@ -27,6 +27,6 @@ module.exports = {
   },
   kill: {
     // Min killfame to report kill
-    minFame: 25000
+    minFame: 1000
   }
 };
